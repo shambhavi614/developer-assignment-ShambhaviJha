@@ -24,7 +24,8 @@ https://orthonow-healthcare.netlify.app/
 
 # Landing Page Preview
 
-> Replace the image below with your screenshot.
+<img width="1920" height="969" alt="image" src="https://github.com/user-attachments/assets/87faa258-11a8-4b87-801e-0e92eb939d7a" />
+
 
 
 
