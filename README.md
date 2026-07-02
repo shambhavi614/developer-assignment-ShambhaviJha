@@ -32,7 +32,8 @@ https://orthonow-healthcare.netlify.app/
 
 The landing page was optimized for fast loading, lightweight assets, and mobile responsiveness.
 
-**PageSpeed Screenshot**
+<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/ca9ce2f5-a539-4dad-9f56-bc7cb5787321" />
+
 
 # Task 01 – GTM Event Tracking Plan
 
