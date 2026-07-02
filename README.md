@@ -1,4 +1,4 @@
-# 🚀 Developer Assignment – Shambhavi Jha
+# Developer Assignment – Shambhavi Jha
 
 This repository contains my submission for the **Namoza Developer Assignment**.
 
@@ -15,36 +15,24 @@ developer-assignment-ShambhaviJha/
 ├── TASK-03-Integration_Design.md
 ```
 
----
 
-# 🌐 Live Demo
+# Live Demo
 
 **Netlify Deployment**
 https://orthonow-healthcare.netlify.app/
 
----
 
-# 📸 Landing Page Preview
+# Landing Page Preview
 
 > Replace the image below with your screenshot.
 
-<p align="center">
-<img src="./landing-page-preview.png" alt="Landing Page Preview" width="900">
-</p>
 
----
 
 # Google PageSpeed Insights
 
 The landing page was optimized for fast loading, lightweight assets, and mobile responsiveness.
 
 **PageSpeed Screenshot**
-
-<p align="center">
-<img src="./PageSpeed-Screenshot.png" alt="PageSpeed Insights" width="900">
-</p>
-
----
 
 # Task 01 – GTM Event Tracking Plan
 
@@ -59,14 +47,6 @@ Designed a complete Google Tag Manager event tracking strategy for OrthoNow incl
 - Blog Engagement
 - Google Ads Conversion Event
 - GA4 Funnel Exploration
-
-File:
-
-```
-TASK-01-GTM-Schema.md
-```
-
----
 
 # Task 02 – Consultation Landing Page
 
@@ -99,14 +79,6 @@ window.dataLayer.push({
 });
 ```
 
-File
-
-```
-TASK-02-Landing-Page.html
-```
-
----
-
 # Task 03 – Integration Design
 
 Designed an end-to-end CRM integration including:
@@ -119,13 +91,6 @@ Designed an end-to-end CRM integration including:
 - Google Ads Conversion Tracking
 - Retry Queue Strategy
 - SLA Monitoring
-
-File
-
-```
-TASK-03-Integration-Design.md
-```
-
 
 # Tech Stack
 
@@ -150,12 +115,6 @@ The Loom video demonstrates:
 **Loom Link**
 
 > Add your Loom link here after recording.
-
-Example:
-
-```
-https://www.loom.com/share/xxxxxxxxxxxxxxxxxxxxxxxx
-```
 
 # Author
 
