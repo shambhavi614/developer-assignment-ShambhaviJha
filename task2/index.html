@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OrthoNow | Expert Orthopaedic Opinion</title>
+<style>
+:root{--b:#1663ff;--g:#16a34a;--bg:#f6f8fc}*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui;background:linear-gradient(#eef5ff,#fff)}
+.wrap{max-width:1150px;margin:auto;padding:24px}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;min-height:100vh;align-items:center}
+@media(max-width:820px){.hero{grid-template-columns:1fr;min-height:auto}}
+.badge{display:inline-block;background:#e8fff0;color:#0b7a3a;padding:8px 14px;border-radius:999px;font-weight:700}
+h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.1;margin:18px 0}.lead{font-size:1.15rem;color:#4b5563}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:24px 0}.item{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px}
+.review,.steps{background:#fff;border-left:5px solid var(--b);padding:16px;border-radius:12px;margin-top:18px}
+.card{background:#fff;border-radius:18px;padding:26px;box-shadow:0 18px 50px rgba(0,0,0,.08);position:sticky;top:20px}
+label{font-weight:700;display:block;margin:12px 0 6px}input{width:100%;padding:15px;border:1px solid #cbd5e1;border-radius:10px}
+button{width:100%;margin-top:18px;padding:16px;border:0;border-radius:10px;background:var(--b);color:#fff;font-size:1.05rem;font-weight:700}
+button:hover{filter:brightness(.95)}.trust{display:flex;justify-content:space-between;margin-top:18px;text-align:center}.trust b{display:block;font-size:1.4rem;color:var(--b)}
+.success{display:none;text-align:center}.ok{font-size:54px}
+</style></head><body>
+<div class=wrap><section class=hero><div>
+<div class=badge>Trusted by 15,000+ Patients Across Bengaluru</div>
+<h1>Knee or Back Pain? <br>Get an Expert Orthopaedic Opinion Without the Wait.</h1>
+<p class=lead>Built for busy working professionals (28–50). Same-week consultations, experienced specialists and personalized treatment plans.</p>
+<div class=grid>
+<div class=item>🦴 Experienced Orthopaedic Specialists</div>
+<div class=item>📅 Same-Week Appointments</div>
+<div class=item>🏥 12+ Clinics Across Bengaluru</div>
+<div class=item>⭐ 4.8/5 Average Patient Rating</div>
+</div>
+<div class=review><strong>⭐⭐⭐⭐⭐</strong><br>“My chronic back pain was diagnosed correctly on the first visit. Booking was simple and the doctor explained everything clearly.”<br><b>— Priya M., Bengaluru</b></div>
+<div class=steps><b>How it works</b><br>1. Submit your details → 2. Get a callback within 30 minutes → 3. Pick a slot → 4. Meet your specialist.</div>
+</div>
+<div>
+<div class=card id=formCard>
+<h2>Book Your Consultation</h2>
+<form id=f><label>Name</label><input id=n required placeholder="Enter your name">
+<label>Phone</label><input id=p required type=tel maxlength=10 pattern="[6-9][0-9]{9}" placeholder="10-digit mobile number">
+<p style="font-size:.9rem;color:#666">✓ No spam. ✓ Confidential. ✓ Takes less than 20 seconds.</p>
+<button>Book My Consultation</button></form>
+<div class=trust><div><b>15+</b>Doctors</div><div><b>12+</b>Clinics</div><div><b>15K+</b>Patients</div></div>
+</div>
+<div class="card success" id=success><div class=ok>✅</div><h2>You're All Set!</h2><p>Thanks for booking. Our care coordinator will call you shortly.</p></div>
+</div></section></div>
+<script>
+window.dataLayer=window.dataLayer||[];
+f.onsubmit=e=>{
+e.preventDefault();
+const name=n.value.trim(),phone=p.value.trim();
+window.dataLayer.push({
+event:"consultation_form_submitted",
+form_name:"landing_page_consultation",
+user_name:name,
+phone_length:phone.length,
+city:"Bengaluru",
+timestamp:new Date().toISOString()
+});
+console.log(window.dataLayer);
+formCard.style.display="none";
+success.style.display="block";
+};
+</script></body></html>
