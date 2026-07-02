@@ -114,9 +114,8 @@ The Loom video demonstrates:
 - Live `window.dataLayer` Event
 - CRM Integration Architecture
 
-**Loom Link**
-
-> Add your Loom link here after recording.
+[**Loom Link**
+https://www.loom.com/share/c08435ccafe44c89a6fcb7c6288f0772
 
 # Author
 
