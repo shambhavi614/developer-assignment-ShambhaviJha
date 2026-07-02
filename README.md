@@ -1,34 +1,170 @@
-# Developer Assignment – Shambhavi Jha
+# 🚀 Developer Assignment – Shambhavi Jha
 
-This repository contains my submission for the Namoza Developer Assignment.
+This repository contains my submission for the **Namoza Developer Assignment**.
 
-## Repository Contents
+## Repository Structure
 
-### Task 01
-- GTM Event Schema
-- Markdown table
-- JSON snippets
+```
+developer-assignment-ShambhaviJha/
+│
+├── README.md
+├── TASK-01-GTM_Event_Schema.md
+├── TASK-02-index.html
+├── TASK-02-PageSpeed-Screenshot.png
+├── Assets-Landing-page-preview.png
+├── TASK-03-Integration_Design.md
+```
 
-### Task 02
-- Single self-contained HTML landing page
-- Mobile responsive
-- GTM dataLayer push
-- Thank-you state
-- PageSpeed Insights screenshot
+---
 
-### Task 03
-- CRM Integration Design
-- HubSpot integration approach
-- WhatsApp API workflow
-- Google Ads conversion architecture
+# 🌐 Live Demo
 
-## Tech Stack
+**Netlify Deployment**
+https://orthonow-healthcare.netlify.app/
+
+---
+
+# 📸 Landing Page Preview
+
+> Replace the image below with your screenshot.
+
+<p align="center">
+<img src="./landing-page-preview.png" alt="Landing Page Preview" width="900">
+</p>
+
+---
+
+# Google PageSpeed Insights
+
+The landing page was optimized for fast loading, lightweight assets, and mobile responsiveness.
+
+**PageSpeed Screenshot**
+
+<p align="center">
+<img src="./PageSpeed-Screenshot.png" alt="PageSpeed Insights" width="900">
+</p>
+
+---
+
+# Task 01 – GTM Event Tracking Plan
+
+Designed a complete Google Tag Manager event tracking strategy for OrthoNow including:
+
+- Page Views
+- Clinic Page Tracking
+- Multi-Step Booking Funnel
+- Phone Call Tracking
+- WhatsApp Click Tracking
+- Patient Guide Downloads
+- Blog Engagement
+- Google Ads Conversion Event
+- GA4 Funnel Exploration
+
+File:
+
+```
+TASK-01-GTM-Schema.md
+```
+
+---
+
+# Task 02 – Consultation Landing Page
+
+Built a conversion-focused landing page using:
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Google Tag Manager
+
+### Features
+
+- Responsive Mobile-First Design
+- Minimal 2-Field Consultation Form
+- Trust Elements
+- Strong Primary CTA
+- GTM dataLayer Push
+- Thank-you State (No Page Reload)
+- Lightweight & Performance Optimized
+
+### GTM Event Fired
+
+```javascript
+window.dataLayer.push({
+  event: "consultation_form_submitted",
+  form_name: "landing_page_consultation",
+  user_name: "...",
+  phone_length: 10,
+  city: "Bengaluru",
+  timestamp: "..."
+});
+```
+
+File
+
+```
+TASK-02-Landing-Page.html
+```
+
+---
+
+# Task 03 – Integration Design
+
+Designed an end-to-end CRM integration including:
+
+- HubSpot CRM
+- HubSpot CRM Search API
+- Contact Create / Update Logic
+- Phone Number Deduplication
+- Karix WhatsApp Business API
+- Google Ads Conversion Tracking
+- Retry Queue Strategy
+- SLA Monitoring
+
+File
+
+```
+TASK-03-Integration-Design.md
+```
+
+
+# Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Tag Manager (GTM)
+- Google Analytics 4 (GA4)
 - HubSpot CRM
 - Karix WhatsApp Business API
+- Google Ads
 
-Thank you for reviewing my assignment.
+# Loom Walkthrough
+
+The Loom video demonstrates:
+
+- GTM Event Tracking Plan
+- Landing Page Demo
+- Live `window.dataLayer` Event
+- CRM Integration Architecture
+
+**Loom Link**
+
+> Add your Loom link here after recording.
+
+Example:
+
+```
+https://www.loom.com/share/xxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+# Author
+
+**Shambhavi Jha**
+
+Computer Science Engineering
+
+GitHub: https://github.com/shambhavi614
+
+## Thank You
+
+Thank you for reviewing my submission. I appreciate the opportunity to complete this assignment and look forward to your feedback.
